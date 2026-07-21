@@ -2,14 +2,16 @@
 // Use `image: 'images/your-photo.jpg'` for a real photo,
 // or `gradient: 'linear-gradient(...)'` as a placeholder when no photo yet.
 const GALLERY_ITEMS = [
-  { cat: 'room',     tag: 'Treatment Room', title: 'Private treatment room', image: 'images/TOE.jpg' },
-  { cat: 'therapy',  tag: 'In Session',     title: 'Pressure point therapy', image: 'images/Presure Point.jpeg' },
-  { cat: 'products', tag: 'Products',       title: 'House blended oils', image: 'images/HouseBond.jpeg' },
-  { cat: 'therapy',  tag: 'In Session',     title: 'Consultation', image: 'images/Waitting Area.jpeg' },
-  { cat: 'therapy',  tag: 'In Session',     title: 'Foot ritual station', image: 'images/Foot Ritual.jpeg' },
-  { cat: 'products', tag: 'Products',       title: 'Product', gradient: 'linear-gradient(135deg, #3A2A1D, #C9A25C)' },
-  { cat: 'room',     tag: 'Treatment Room', title: 'Waiting area', image: '' },
+  { cat: 'room',     tag: 'Treatment Room', title: 'Private Treatment Room', image: 'images/TOE.jpg' },
+  { cat: 'therapy',  tag: 'In Session',     title: 'Pressure Point Therapy', image: 'images/Presure Point.jpeg' },
+  { cat: 'therapy',  tag: 'In Session',     title: 'Consultation', image: 'images/Consult 2.jpeg' },
+  { cat: 'therapy',  tag: 'In Session',     title: 'Foot Ritual', image: 'images/Foot Ritual.jpeg' },
+  { cat: 'therapy',  tag: 'In Session',     title: 'Body Accupresure', image: 'images/On Treatment.jpeg' },
+  { cat: 'products', tag: 'Products',       title: 'Clove Oil', image: 'images/Clove Oil.jpg' },
+  { cat: 'products', tag: 'Products',       title: 'Frangipani Oil', image: 'images/Frangipani Oil.jpg' },
+  { cat: 'products', tag: 'Products',       title: 'Kenanga Oil', image: 'images/Kenanga Oil.jpg' },
 
+  
 ];
 
 (function initGallery(){
