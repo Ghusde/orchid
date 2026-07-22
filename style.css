@@ -272,7 +272,7 @@
   }
   .menu-item > div:first-child{ padding-right:130px; }
   .menu-item .name{font-family:'Fraunces',serif; font-size:21px; font-weight:500; color:var(--palm-deep);}
-  .menu-item .desc{font-size:15px; color:var(--ink); opacity:0.65; margin-top:10px; max-width:500px;}
+  .menu-item .desc{font-size:15px; color:var(--ink); opacity:0.65; margin-top:10px; max-width:550px;}
   .menu-item .price{
     position:absolute; top:26px; right:0;
     font-family:'Fraunces',serif; font-size:19px; color:var(--palm-deep);
@@ -331,3 +331,14 @@
   footer .flinks{display:flex; gap:26px; font-size:13px;}
   footer .flinks a:hover{color:var(--rice);}
   .fine{font-size:12px; opacity:0.6; margin-top:6px;}
+
+  /* ---------- reduce heavy vertical section padding on mobile (kept at end of file so it always wins) ---------- */
+  @media(max-width:760px){
+    .hero{padding:40px 0 50px;}
+    .philosophy{padding:40px 0 50px;}
+    .ritual{padding:40px 0 50px;}
+    .gallery{padding:40px 0 50px;}
+    .treatments{padding:40px 0 50px;}
+    .testimonial{padding:40px 0 50px;}
+    .contact{padding:40px 0 50px;}
+  }
